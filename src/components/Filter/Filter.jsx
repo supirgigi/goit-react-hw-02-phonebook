@@ -3,12 +3,10 @@ import { Input, Label } from './Filter.styled';
 
 const Filter = ({ value, onChange }) => {
   return (
-    <>
-      <Label>
-        Find contacts by name
-        <Input onChange={onChange} value={value} type="text" />
-      </Label>
-    </>
+    <Label>
+      Find contacts by name
+      <Input onChange={onChange} value={value} type="text" />
+    </Label>
   );
 };
 
